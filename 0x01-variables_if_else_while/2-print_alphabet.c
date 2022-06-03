@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print alphabet in lowercase, followed by a newline
- *  * Return 0
+ * main - main block
+ * Description: print alphabet in lowercase, followed by a newline
+ * Return: 0
  */
 int main(void)
 {
