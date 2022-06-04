@@ -2,8 +2,9 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: print alphabet in lowercase,  and then in uppercase, followed by a newline
- * Return: 
+ * Description: print alphabet in lowercase,  and 
+ * then in uppercase, followed by a newline
+ * Return: 0
  */
 int main(void)
 {
