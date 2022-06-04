@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: print alphabit in lowercase, followed by a newline
+ * Description: print alphabit in lowercase, except p and e followed by a newline
  * Return: 0
  */
 int main(void)
