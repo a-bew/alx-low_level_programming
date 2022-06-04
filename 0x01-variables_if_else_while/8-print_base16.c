@@ -16,7 +16,7 @@ int main(void)
 		c++;
 	}
 
-	c = 'a'
+	c = 'a';
 
 	while (c <= 'f')
 	{
