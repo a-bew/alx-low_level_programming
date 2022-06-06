@@ -12,10 +12,10 @@ int main(void)
 
 	while (c <= 8)
 	{
-		d = 1;
+		d = 0;
 		while (d <= 9)
 		{
-			if (d != c && d < c)
+			if (c != d && c < d)
 			{
 				putchar('0' + c);
 				putchar('0' + d);
