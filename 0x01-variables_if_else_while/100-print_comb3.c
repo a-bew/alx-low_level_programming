@@ -15,14 +15,16 @@ int main(void)
 		d = 1;
 		while (d <= 9)
 		{
-			putchar('0'+c);
-			putchar('0'+d);
-			if (c+d != 17)
+			if (d != c && d < c)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar('0' + c);
+				putchar('0' + d);
+				if (c + d != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-
 			d++;
 		}
 		c++;
