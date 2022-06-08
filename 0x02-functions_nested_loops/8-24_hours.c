@@ -8,7 +8,8 @@
 void jack_bauer(void)
 {
 	int hour = 0;
-	char hourDiv, minuteDiv;
+	char hourDiv[1]; 
+	char minuteDiv[1];
 
 	while (hour < 24)
 	{
@@ -21,7 +22,7 @@ void jack_bauer(void)
 
 			_putchar('0' + hourDiv);
 			_putchar('0' + hour);
-			_putchar(":");
+			_putchar(':');
 			_putchar('0' + minuteDiv);
 			_putchar('0' + minute);
 			
