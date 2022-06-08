@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
 * main -Entry point
 * Return: 0
@@ -14,11 +13,5 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
 
