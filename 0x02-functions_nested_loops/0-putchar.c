@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
 * main -Entry point
@@ -7,9 +7,9 @@
 
 int main(void)
 {
-	char c[10] = "Holberton";
+	char c[5] = "Main";
 	int i = 0;
-	while (i < 9)
+	while (i < 4)
 	{
 		_putchar(c[i]);
 		i++;
