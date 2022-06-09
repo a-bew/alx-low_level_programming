@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_diagonal - Entry point
-* description - prints the alphabet, in lowercase, followed by a new line
+* @b: int type number
 * Return: void
 */
 void print_diagonal(int b)
