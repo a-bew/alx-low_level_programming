@@ -2,7 +2,7 @@
 /**
 * print_numbers - Entry point
 * description - prints  the numbers, from 0 to 9, followed by a new line
-* Return: void
+* Return: 0
 */
 void print_numbers(void)
 {
