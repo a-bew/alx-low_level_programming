@@ -4,7 +4,6 @@
  * jack_bauer - jack bauer
  * Return: void
  */
-
 void jack_bauer(void)
 {
 	int h1;
