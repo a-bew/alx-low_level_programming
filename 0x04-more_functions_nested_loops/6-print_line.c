@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_line - Entry point
-* description - prints the alphabet, in lowercase, followed by a new line
+* @c: int type number
 * Return: void
 */
 void print_line(int c)
