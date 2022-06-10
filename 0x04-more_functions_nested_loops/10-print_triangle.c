@@ -8,6 +8,7 @@ void print_triangle(int b)
 {
 	char d = '#';
 	int a = 0;
+	int c;
 
 	while (a < b)
 	{
@@ -26,6 +27,10 @@ void print_triangle(int b)
 			}
 		}
 		a++;
+		_putchar('\n');
+	}
+	if (b <= 0)
+	{
 		_putchar('\n');
 	}
 }
