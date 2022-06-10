@@ -18,7 +18,7 @@ while (1)
 		printf("%lu \n", n / a);
 		break;
 	}
-	a--;
+	--a;
 
 }
 
