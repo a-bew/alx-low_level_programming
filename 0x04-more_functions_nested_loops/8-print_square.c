@@ -20,5 +20,9 @@ void print_square(int b)
 		a++;
 		_putchar('\n');
 	}
+	if (b <= 0)
+	{
+		_putchar('\n');
+	}
 }
 
