@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
 * print_diagonal - Entry point
 * @b: int type number
 * Return: void
 */
+
 void print_diagonal(int b)
 {
 	char d = '\\';
