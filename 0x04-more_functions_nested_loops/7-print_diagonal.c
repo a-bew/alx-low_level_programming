@@ -1,34 +1,30 @@
 #include "main.h"
+
 /**
-* print_diagonal - Entry point
-* @b: int type number
-* Return: void
-*/
-void print_diagonal(int b)
+ * print_diagonal - check for a digit
+ * @n : number of \\ to be printed
+ * Return:void
+ */
+
+void print_diagonal(int n)
 {
-	char d = '\\';
-	int a = 0;
 
-	while (a < b)
+	int i = 0, ii;
+
+	while (i < n && n > 0)
 	{
-		int n;
-
-		for (n = 0; n <= b; n++)
+		ii = 0;
+		while (ii < i)
 		{
-			if (a == n)
-			{
-				_putchar(d);
-			}
-			else
-			{
-				_putchar(' ');
-			}
+			_putchar(' ');
+			ii++;
 		}
-		a++;
+
+		_putchar('\\');
 		_putchar('\n');
+		i++;
 	}
-	if (b <= 0)
+	if (i == 0)
 		_putchar('\n');
 
 }
-
