@@ -1,7 +1,8 @@
 #include "main.h"
 /**
-* print_diagonal - Entry point
-* @b: int type number
+* print_triangle - Entry point
+* description - print triangle
+* @size: int type number
 * Return: void
 */
 void print_triangle(int size)
