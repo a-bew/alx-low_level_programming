@@ -4,34 +4,30 @@
 * @b: int type number
 * Return: void
 */
-void print_triangle(int b)
+void print_triangle(int size)
 {
-	char d = '#';
-	int a = 0;
-	int c;
 
-	while (a < b)
+	int i = 1, ii;
+
+	while (i <= size && size > 0)
 	{
-		int n;
-
-		for (n = 0; n <= b; n++)
+		ii = 0;
+		while (ii < size - i)
 		{
-			c = b - a;
-			if (c > n)
-			{
-				_putchar(' ');
-			}
-			else
-			{
-				_putchar(d);
-			}
+			_putchar(' ');
+			ii++;
 		}
-		a++;
+		ii = 0;
+		while (ii < i)
+		{
+			_putchar('#');
+			ii++;
+		}
+
 		_putchar('\n');
+		i++;
 	}
-	if (b <= 0)
-	{
+	if (i == 1)
 		_putchar('\n');
-	}
 }
 
