@@ -7,12 +7,12 @@
 void print_triangle(int b)
 {
 	char d = '#';
-	int c, e;
 	int a = 0;
 
 	while (a < b)
 	{
 		int n;
+
 		for (n = 0; n <= b; n++)
 		{
 			c = b - a;
