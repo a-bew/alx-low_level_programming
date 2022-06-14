@@ -16,7 +16,7 @@ int _strlen(char *s)
 	return (i);
 }
 
-void _print_rev(char *s)
+void print_rev(char *s)
 {
 	int i = _strlen(s) - 1;
 
