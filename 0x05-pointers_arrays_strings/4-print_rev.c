@@ -10,11 +10,12 @@
 void print_rev(char *s)
 {
 	int a = 0;
+	int i;
 
 	while (s[a])
 		a++;
 
-	int i = a - 1;
+	i = a - 1;
 
 	while (s[i])
 	{
