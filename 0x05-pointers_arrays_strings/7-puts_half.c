@@ -6,7 +6,6 @@
  * Return: void
 */
 
-
 void puts_half(char *s)
 {
 	int len = 0;
