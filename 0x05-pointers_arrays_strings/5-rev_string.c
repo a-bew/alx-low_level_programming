@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * print_rev - prints a string in reversal, followed by a new line,
- * _strlen - string length
+ * rev_string - prints a string in reversal, followed by a new line,
  * @s: pointer to the string to print
  * Return: void
 */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int a = 0;
 	int i, half;
