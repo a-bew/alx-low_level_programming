@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
  * *_strcat - concatenates two strings
  * @dest: pointer destination
@@ -9,6 +9,7 @@
 
 char *_strcat(char *dest, char *src)
 {
+
 	char *start = dest;
 
 	while (*dest != '\0')
@@ -24,7 +25,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	*dest = '\0';
-	putchar('\n');
 
 	return (start);
 
