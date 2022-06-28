@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <string.h>
 /**
  * *_strdup - a function that returns a pointer to a new
  * string which is a duplicate of the string str.
@@ -20,7 +20,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	len = _strlen(str);
+	len = strlen(str);
 
 	cpy = malloc(sizeof(char) * (len + 1));
 
