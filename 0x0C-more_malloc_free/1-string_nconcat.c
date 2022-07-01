@@ -38,8 +38,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
         for (i = 0; i < len_s1; i++)
                 p[i] = s1[i];
 
-	for (j = 0; j + i + 1 <= len_s1 + main_n; j++)
-		p[j + i + 1] = s2[j];
+	for (j = 0; j < main_n; j++)
+		p[j + i] = s2[j];
 
 	p[len_s1 + main_n + 1] = '\0';
 	
