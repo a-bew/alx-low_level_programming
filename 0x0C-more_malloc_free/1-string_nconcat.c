@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stddel.h>
+#include <stdio.h>
 
 /**
  * string_nconcat - concatenates two strings
@@ -20,10 +20,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	i = 0;
 	j = 0;
 
-	while (s1[i] != "\0")
+	while (s1++)
 		i++;
 
-	while (s2[j] != "\0")
+	while (s2++)
 		j++;
 
 	len_s1 = i;
