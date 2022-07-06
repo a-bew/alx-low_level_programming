@@ -2,7 +2,6 @@
 
 /**
 * init_dog - inits a variable of
-* type dog
 * @d: dog identification
 * @name: name of dog
 * @age: age of dog
