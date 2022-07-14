@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define LISTS_H
+#define MAIN_H
 
 #include <stdio.h> /* size_t, printf */
 #include <stdlib.h> /* malloc */
