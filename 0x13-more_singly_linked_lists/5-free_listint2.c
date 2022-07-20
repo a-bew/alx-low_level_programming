@@ -1,34 +1,25 @@
 #include "lists.h"
 
 /**
- * add_nodeint - adds a new node at the end
- * of a linked list
- * @head: listint_t list
- * @n: size of node
- * Return: the address of the new element, or NULL.
+ * free_listint2 - frees a listint_t list
+ * Description: at the end, the head will point to NULL.
+ * So, as we know the tail always points to NULL, we will
+ * be moving a temp pointer, free its memory if not NULL
+ * Untill we reach the tail
+ * @head: head of linked list
  */
 
-listint_t *add_nodeint_end(listint_t **head, const int n)
+void free_listinti2(listint_t **head)
 {
 	listint_t *current;
-	listint_t *new;
 
-	current = *head;
-	while (current && current->next != NULL)
-		current = current->next;
+	if (head == NULL)
+		return;
 
-	new = malloc(sizeof(listint_t));
-	if (new == NULL)
+	while (*head != NULL)
 	{
-		free(new);
-		return (NULL);
+		current = *head;
+		*head = (*head)->next;
+		free(current);
 	}
-	new->n = n;
-	new->next = *head;
-	if (current)
-		current->next = new;
-	else
-		*head = new;
-
-	return (new);
 }
