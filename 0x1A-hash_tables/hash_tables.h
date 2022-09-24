@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef __HASH__
+#define __HASH__
 
 #include <stdlib.h>
 #include <string.h>
